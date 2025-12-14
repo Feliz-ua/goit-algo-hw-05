@@ -107,7 +107,7 @@ def measure_time(alg, text, pattern, number=1000):
 
 # один реальний і один вигаданий підрядок
 pattern_real = "Java"      # змінюй на будь-який точно наявний у тексті
-pattern_fake = "xyzabc"    # гарантовано вигаданий
+pattern_fake = "abcdef1"    # гарантовано вигаданий
 
 for text, name in [(text1, "стаття 1"), (text2, "стаття 2")]:
     print(f"\nРезультати для {name}:")
